@@ -1,20 +1,24 @@
-/* -------- FONTS --------- */
+/*
+  --ds-tab-gradient-dark: linear-gradient(to right, #28282800, #282828 13%);
+  --ds-tab-gradient-light: linear-gradient(to right, #3b3b3b, #3b3b3b00);
+
+-------- FONTS --------- */
 
 :root {
   --ds-ui-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
-  --ds-ui-bg: #2c2c2c;
+  --ds-ui-bg: #191b24;
   --ds-ui-font-fg: #ffffff;
   --ds-ui-divider-bg: #2c2c2c;
   --ds-ui-button-bg: #3482d1;
   --ds-ui-button-bg-selected: #5c8bbb;
   --ds-ui-border: #0a0a0a;
   --ds-input-bg: #141414;
-  --ds-active-tab: #3b3b3b;
-  --ds-inactive-tab: #303030;
+  --ds-active-tab: #1f2430;
+  --ds-inactive-tab: #181a24;
   --ds-active-secondary-tab: #2c2c2c;
-  --ds-tab-gradient-dark: linear-gradient(to right, #28282800, #282828 13%);
-  --ds-tab-gradient-light: linear-gradient(to right, #3b3b3b, #3b3b3b00);
+  --ds-tab-gradient-dark: #191b24;
+  --ds-tab-gradient-light: #191b24;
   --ds-grid-border: #2f2f2f;
   --ds-scrollbar-bg: transparent;
   --ds-scrollbar-thumb-bg: #282828;
@@ -253,7 +257,7 @@
   text-shadow: none;
   font-weight: 400;
   font-family: var(--ds-ui-font) !important;
-  font-size: 12px !important;
+  font-size: 16px !important;
 }
 
 .GGBOEFPDOU {
